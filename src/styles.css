@@ -1,1 +1,140 @@
-/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Rufina:wght@400;700&family=Sacramento&family=Sail&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    background: #162040 !important;
+}
+/* colors */
+.primary-color{
+    color: #162040 !important;
+}
+.secondary-color{
+    color: #D1C397 !important;
+}
+
+.third-color{
+    color: #FACA3F !important;
+}
+
+.forth-color{
+    color: #D69B2D;
+}
+
+.fifth-color{
+    color: #565573 !important ;
+}
+.sixth-color{
+    color: #D9CA9C !important;
+}
+
+.seventh-color{
+    color: #F95D5D !important;
+}
+.gray-color{
+    color: #E5E5E5 !important;
+}
+
+.brand-color{
+    color: #494862 !important;
+}
+
+.primary-background{
+    background: #162040 !important;
+}
+
+.secondary-background{
+    background: #D1C397 !important;
+}
+
+.third-background{
+    background: #FACA3F !important;
+}
+
+.forth-background{
+    background: #D69B2D !important;
+}
+.fifth-background{
+    background: #565573 !important;
+}
+.sixth-background{
+    background: #D9CA9C  !important;
+}
+
+.seventh-background{
+    background: #F95D5D !important;
+}
+.gray-background{
+    background: #E5E5E5 !important;
+}
+/* fonts */
+.primary-font-regular{
+    font-family: 'Sail', cursive;
+}
+
+.secondary-font-regular{
+    font-family: 'Rufina', serif;
+}
+
+.helper-font-regular{
+    font-family: 'Sacramento', cursive; 
+}
+/* bold */
+.primary-font-bold{
+    font-family: 'Sail', cursive;
+    font-weight: bold;
+}
+
+.secodary-font-bold{
+    font-family: 'Rufina', serif;
+    font-weight: bold;
+}
+
+.helper-font-bold{
+    font-family: 'Sacramento', cursive; 
+    font-weight: bold;
+}
+
+
+/* the first section */
+.first-section{
+    margin-top: 5%;
+    height: 80vh;
+}
+
+
+/* my-images-section */
+
+.my-images-section{
+    margin-top: 40px;
+    margin-bottom: 5%;
+    margin-left: 15rem;
+    margin-right: 15rem;
+    
+}
+
+
+/* footer */
+.footer{
+    margin-top: 8%;
+}
+
+/* who-i-am-section */
+
+.who-i-am-section{
+    margin-top: 10px;
+}
+
+.img-center{
+    margin-left: 20%;
+    margin-right: 20%;
+}
+.row{
+   
+    flex-wrap: wrap;
+}
